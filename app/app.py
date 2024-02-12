@@ -10,9 +10,9 @@ MAX_HANDS = 1                   #@param {type: "integer"}
 min_detection_confidence = 0.6  #@param {type:"slider", min:0, max:1, step:0.01}
 min_tracking_confidence  = 0.5  #@param {type:"slider", min:0, max:1, step:0.01}
 
-MODEL_PATH = "../classifier"
-model_letter_path = "/Users/hiepnnguyen/ASL-Finger-Spelling-To-Text/classifier/classify_letter_model.p"
-model_number_path = "/Users/hiepnnguyen/ASL-Finger-Spelling-To-Text/classifier/classify_number_model.p"
+MODEL_PATH = "./classifier"
+model_letter_path = f"{MODEL_PATH}/classify_letter_model.p"
+model_number_path = f"{MODEL_PATH}/classify_number_model.p"
 
 numberMode = False
 
